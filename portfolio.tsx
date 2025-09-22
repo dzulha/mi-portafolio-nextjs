@@ -8,43 +8,145 @@ import Image from "next/image"
 
 export default function Component() {
   const projects = [
-    {
-      title: "E-Commerce Platform",
+  {
+      title: "Xplora",
       description:
-        "Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      github: "https://github.com/username/ecommerce-platform",
-      live: "https://ecommerce-demo.vercel.app",
-      image: "/placeholder.svg?height=200&width=400",
+        "Trabajo final del bootcamp de desarrollo web de Upgrade Hub. Aplicación web para descubrir y compartir lugares interesantes, con funcionalidades de geolocalización, reseñas y perfiles de usuario.",
+      tech: ["Adobe InDesign", "Midjourney", "Adobe Firefly", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/Sinfonía.webp?height=200&width=400",
+    },
+  {
+      title: "Proyecto Sinfonía",
+      description:
+        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. Incluye la versión física y EPUB, con más de 80 copias vendidas en formato POD y Kindle.",
+      tech: ["Adobe InDesign", "Midjourney", "Adobe Firefly", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/Sinfonía.webp?height=200&width=400",
     },
     {
-      title: "Task Management App",
+    title: "Proyecto Sinfonía Epub",
       description:
-        "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["Next.js", "TypeScript", "Prisma", "Socket.io", "shadcn/ui"],
-      github: "https://github.com/username/task-manager",
-      live: "https://taskmanager-demo.vercel.app",
-      image: "/placeholder.svg?height=200&width=400",
+        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
+      tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/SinfoniaEpub.png?height=200&width=400",
+    },
+      {
+    title: "Marta Watts",
+      description:
+        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
+      tech: ["WordPress", "Elemetor", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/Martawatts.png?height=200&width=400",
     },
     {
-      title: "WordPress Business Theme",
+    title: "ABSIMO",
       description:
-        "Custom WordPress theme for business websites with advanced customization options, responsive design, and SEO optimization.",
-      tech: ["WordPress", "PHP", "JavaScript", "SCSS", "ACF"],
-      github: "https://github.com/username/business-theme",
-      live: "https://business-theme-demo.com",
-      image: "/placeholder.svg?height=200&width=400",
+        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
+      tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/ABISMO.png?height=200&width=400",
+    },
+      {
+    title: "Cetus Repaeir",
+      description:
+        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
+      tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
+      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+      live: "https://amazon.com/dp/B0C3969188",
+      image: "/Cetus reapeir.png?height=200&width=400",
     },
     {
-      title: "Analytics Dashboard",
+      title: "Rediseño Web para Cetus Dive Center",
       description:
-        "Real-time analytics dashboard with data visualization, user tracking, and comprehensive reporting features.",
-      tech: ["React", "D3.js", "Express", "MongoDB", "Chart.js"],
-      github: "https://github.com/username/analytics-dashboard",
-      live: "https://analytics-demo.vercel.app",
-      image: "/placeholder.svg?height=200&width=400",
+        "Rediseño de un sitio web obsoleto en Magento a dos sitios funcionales en WordPress. Se integró Calendly y MailerLite para reservas y marketing.",
+      tech: ["WordPress", "Calendly", "MailerLite", "CSS"],
+      github: "https://github.com/PabloEzeta/Cetus-Dive-Center",
+      live: "https://cetusscubacenter.com",
+      image: "/Cetus.webp?height=200&width=400",
     },
-  ]
+    {
+      title: "Wild Sites (Estudio Freelance)",
+      description:
+        "Creación de mi propio estudio de diseño freelance. La página web sirve como portafolio y canal de captación de clientes, con implementación básica de SEO.",
+      tech: ["WordPress", "SEO", "Yoast", "Diseño Web"],
+      github: "https://github.com/PabloEzeta/Wild-Sites",
+      live: "https://wild-sites.com",
+      image: "/wildSites.png?height=200&width=400",
+    },
+    {
+      title: "E-commerce para xMartaja",
+      description:
+        "Prototipo de tienda en línea para una joyera, mostrando su portafolio y permitiendo la venta de piezas. Desarrollado con WordPress y WooCommerce.",
+      tech: ["WordPress", "WooCommerce", "e-commerce"],
+      github: "https://github.com/PabloEzeta/xMartaja",
+      live: "https://xmartaja.com",
+      image: "/xMartaja.png?height=200&width=400",
+    },
+    {
+      title: "Proyecto Eduardo (Diseño Gráfico)",
+      description:
+        "Desarrollo de identidad visual y materiales de marketing para un profesor de español enfocado en el mercado chino, incluyendo tarjetas de presentación y edición de video.",
+      tech: ["Figma", "Adobe Premiere Pro", "Diseño Gráfico"],
+      github: "https://github.com/PabloEzeta/Proyecto-Eduardo",
+      live: "https://link-to-video-or-site.com",
+      image: "/proyecto-eduardo.png?height=200&width=400",
+    },
+    {
+      title: "100 días de diseño UI",
+      description:
+        "Reto personal para mejorar mis habilidades en diseño UI/UX, explorando layouts y grids con la creación diaria de interfaces.",
+      tech: ["Figma", "UI/UX Design", "Layouts", "Grids"],
+      github: "https://github.com/PabloEzeta/100-Dias-UI",
+      live: "https://dribbble.com/PabloEzeta",
+      image: "/100-dias-ui.png?height=200&width=400",
+    },
+    {
+      title: "Asistencia en Amazon KDP",
+      description:
+        "Ayuda a la escritora Marta Watts para optimizar y publicar su libro en Amazon KDP, asegurando un formato adecuado para Kindle y la versión física.",
+      tech: ["Amazon KDP", "Kindle", "EpubCheck", "Sigil"],
+      github: "https://github.com/PabloEzeta/Marta-Watts",
+      live: "https://amazon.com/author/martawatts",
+      image: "/marta-watts-kdp.png?height=200&width=400",
+    },
+    {
+      title: "Blog Personal de Buceo",
+      description:
+        "Creación de un blog de buceo en WordPress para compartir experiencias y conocimientos, superando el miedo a escribir y fortaleciendo la constancia en la publicación.",
+      tech: ["WordPress", "Blog", "Webmaster"],
+      github: "https://github.com/PabloEzeta/Blog-Buceo",
+      live: "https://pabloezeta.com",
+      image: "/pablo-ezeta-blog.png?height=200&width=400",
+    },
+    {
+      title: "Fotografía de Producto Carabina 30-30",
+      description:
+        "Sesión fotográfica de producto para redes sociales. Se utilizaron técnicas de improvisación con equipo limitado para lograr imágenes de calidad profesional.",
+      tech: ["Fotografía", "Adobe Photoshop", "Marketing Digital"],
+      github: "https://github.com/PabloEzeta/Carabina3030-Photos",
+      live: "https://instagram.com/carabina3030",
+      image: "/carabina-3030-photos.png?height=200&width=400",
+    },
+    {
+      title: "REHTM (Red de Historia del Turismo)",
+      description:
+        "Diseño de un sitio web en WordPress.com para la Red de Estudios de Historia del Turismo en México (REHTM), creando una plataforma accesible y económica para eventos y publicaciones.",
+      tech: ["WordPress.com", "Canva", "Diseño Web"],
+      github: "https://github.com/PabloEzeta/REHTM",
+      live: "https://rehtm.com",
+      image: "/rhtm.png?height=200&width=400",
+    },
+  ];
+
+
+
 
   const skills = [
     { name: "Frontend Development", icon: Code, description: "React, Next.js, TypeScript, Tailwind CSS" },
@@ -61,7 +163,7 @@ export default function Component() {
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div className="text-xl font-bold text-white">Portfolio</div>
+            <div className="text-xl font-bold text-white">Pablo Ezeta</div>
             <div className="hidden md:flex space-x-8">
               <Link href="#about" className="text-gray-300 hover:text-white transition-colors">
                 About
@@ -137,7 +239,7 @@ export default function Component() {
             <div className="relative">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-1">
                 <Image
-                  src="./public/Pablo Ezeta.jpg"
+                  src="/Pablo Ezeta.jpg"
                   alt="Profile"
                   width={400}
                   height={400}
@@ -195,7 +297,7 @@ export default function Component() {
               >
                 <div className="aspect-video relative overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/Pablo Ezeta.png"}
                     alt={project.title}
                     width={400}
                     height={200}
