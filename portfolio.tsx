@@ -1,3 +1,6 @@
+"use client"
+
+import { useMemo, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -9,22 +12,14 @@ import Image from "next/image"
 export default function Component() {
   const projects = [
   {
-      title: "Xplora",
+      title: "Pablo Ezeta - Blog de buceo",
       description:
         "Trabajo final del bootcamp de desarrollo web de Upgrade Hub. Aplicación web para descubrir y compartir lugares interesantes, con funcionalidades de geolocalización, reseñas y perfiles de usuario.",
-      tech: ["Adobe InDesign", "Midjourney", "Adobe Firefly", "Amazon KDP"],
+      tech: ["React", "Node.js", "PostgreSQL", "Mapbox"],
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
       image: "/Sinfonía.webp?height=200&width=400",
-    },
-  {
-      title: "Proyecto Sinfonía",
-      description:
-        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. Incluye la versión física y EPUB, con más de 80 copias vendidas en formato POD y Kindle.",
-      tech: ["Adobe InDesign", "Midjourney", "Adobe Firefly", "Amazon KDP"],
-      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
-      live: "https://amazon.com/dp/B0C3969188",
-      image: "/Sinfonía.webp?height=200&width=400",
+      category: "fullstack",
     },
     {
     title: "Proyecto Sinfonía Epub",
@@ -34,6 +29,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
       image: "/SinfoniaEpub.png?height=200&width=400",
+      category: "ux",
     },
       {
     title: "Marta Watts",
@@ -43,6 +39,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
       image: "/Martawatts.png?height=200&width=400",
+      category: "ux",
     },
     {
     title: "ABSIMO",
@@ -51,7 +48,8 @@ export default function Component() {
       tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
-      image: "/ABISMO.png?height=200&width=400",
+      image: "/abismo (2).png?height=200&width=400",
+      category: "ux",
     },
       {
     title: "Cetus Repaeir",
@@ -61,6 +59,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
       image: "/Cetus reapeir.png?height=200&width=400",
+      category: "ux",
     },
     {
       title: "Rediseño Web para Cetus Dive Center",
@@ -70,6 +69,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Cetus-Dive-Center",
       live: "https://cetusscubacenter.com",
       image: "/Cetus.webp?height=200&width=400",
+      category: "fullstack",
     },
     {
       title: "Wild Sites (Estudio Freelance)",
@@ -79,6 +79,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Wild-Sites",
       live: "https://wild-sites.com",
       image: "/wildSites.png?height=200&width=400",
+      category: "fullstack",
     },
     {
       title: "E-commerce para xMartaja",
@@ -88,6 +89,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/xMartaja",
       live: "https://xmartaja.com",
       image: "/xMartaja.png?height=200&width=400",
+      category: "fullstack",
     },
     {
       title: "Proyecto Eduardo (Diseño Gráfico)",
@@ -97,6 +99,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Proyecto-Eduardo",
       live: "https://link-to-video-or-site.com",
       image: "/proyecto-eduardo.png?height=200&width=400",
+      category: "ux",
     },
     {
       title: "100 días de diseño UI",
@@ -106,15 +109,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/100-Dias-UI",
       live: "https://dribbble.com/PabloEzeta",
       image: "/100-dias-ui.png?height=200&width=400",
-    },
-    {
-      title: "Asistencia en Amazon KDP",
-      description:
-        "Ayuda a la escritora Marta Watts para optimizar y publicar su libro en Amazon KDP, asegurando un formato adecuado para Kindle y la versión física.",
-      tech: ["Amazon KDP", "Kindle", "EpubCheck", "Sigil"],
-      github: "https://github.com/PabloEzeta/Marta-Watts",
-      live: "https://amazon.com/author/martawatts",
-      image: "/marta-watts-kdp.png?height=200&width=400",
+      category: "ux",
     },
     {
       title: "Blog Personal de Buceo",
@@ -124,15 +119,7 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/Blog-Buceo",
       live: "https://pabloezeta.com",
       image: "/pablo-ezeta-blog.png?height=200&width=400",
-    },
-    {
-      title: "Fotografía de Producto Carabina 30-30",
-      description:
-        "Sesión fotográfica de producto para redes sociales. Se utilizaron técnicas de improvisación con equipo limitado para lograr imágenes de calidad profesional.",
-      tech: ["Fotografía", "Adobe Photoshop", "Marketing Digital"],
-      github: "https://github.com/PabloEzeta/Carabina3030-Photos",
-      live: "https://instagram.com/carabina3030",
-      image: "/carabina-3030-photos.png?height=200&width=400",
+      category: "fullstack",
     },
     {
       title: "REHTM (Red de Historia del Turismo)",
@@ -142,8 +129,17 @@ export default function Component() {
       github: "https://github.com/PabloEzeta/REHTM",
       live: "https://rehtm.com",
       image: "/rhtm.png?height=200&width=400",
+      category: "fullstack",
     },
   ];
+
+  // Filter state for Projects section
+  const [filter, setFilter] = useState<"all" | "fullstack" | "ux">("all")
+
+  const filteredProjects = useMemo(() => {
+    if (filter === "all") return projects
+    return projects.filter((p) => p.category === filter)
+  }, [filter, projects])
 
 
 
@@ -239,7 +235,7 @@ export default function Component() {
             <div className="relative">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-1">
                 <Image
-                  src="/Pablo Ezeta.jpg"
+                  src="/pabloEzeta.png"
                   alt="Profile"
                   width={400}
                   height={400}
@@ -289,8 +285,31 @@ export default function Component() {
               A selection of recent projects showcasing my full-stack development and design capabilities
             </p>
           </div>
+          <div className="mb-8 flex justify-center">
+            <div className="inline-flex rounded-lg bg-gray-800/40 p-1">
+              <button
+                onClick={() => setFilter("all")}
+                className={`px-4 py-2 rounded-md text-sm font-medium ${filter === "all" ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700"}`}
+              >
+                All
+              </button>
+              <button
+                onClick={() => setFilter("fullstack")}
+                className={`px-4 py-2 rounded-md text-sm font-medium ${filter === "fullstack" ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700"}`}
+              >
+                Full Stack
+              </button>
+              <button
+                onClick={() => setFilter("ux")}
+                className={`px-4 py-2 rounded-md text-sm font-medium ${filter === "ux" ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-gray-700"}`}
+              >
+                UX
+              </button>
+            </div>
+          </div>
+
           <div className="grid lg:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
+            {filteredProjects.map((project, index) => (
               <Card
                 key={index}
                 className="bg-gray-800 border-gray-700 overflow-hidden hover:bg-gray-750 transition-colors"
