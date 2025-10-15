@@ -14,11 +14,11 @@ export default function Component() {
   {
       title: "Pablo Ezeta - Blog de buceo",
       description:
-        "Trabajo final del bootcamp de desarrollo web de Upgrade Hub. Aplicación web para descubrir y compartir lugares interesantes, con funcionalidades de geolocalización, reseñas y perfiles de usuario.",
-      tech: ["React", "Node.js", "PostgreSQL", "Mapbox"],
-      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+        "Blog de viajes de buceo.",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS",],
+      github: "https://github.com/dzulha/v0-blog-de-buceo-web",
       live: "https://amazon.com/dp/B0C3969188",
-      image: "/Sinfonía.webp?height=200&width=400",
+      image: "/pabloezetaBlog.webp",
       category: "fullstack",
     },
     {
