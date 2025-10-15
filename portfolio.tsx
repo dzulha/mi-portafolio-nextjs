@@ -80,7 +80,7 @@ export default function Component() {
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/PabloEzeta/Wild-Sites",
       live: "https://wild-sites.com",
-      image: "/wildSites.webp",
+      image: "/wildsites.webp",
       category: "fullstack",
     },
     {
@@ -108,8 +108,8 @@ export default function Component() {
       description:
         "Portafolio porfesional de una diseladora instrucional",
       tech: ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS", "Diseño Gráfico"],
-      github: "https://github.com/dzulha/Espa-olconEdu",
-      live: "https://espa-olcon-kgj5zuvqe-pablos-projects-779e2d69.vercel.app/",
+      github: "https://github.com/dzulha/Jeniffer-instructional",
+      live: "https://www.jeniffercruz.com/",
       image: "/jeniffer.webp",
       category: "fullstack",
     },
@@ -120,7 +120,7 @@ export default function Component() {
       tech: ["WordPress.com", "Canva", "Diseño Web"],
       github: "https://github.com/PabloEzeta/REHTM",
       live: "https://rehtm.com",
-      image: "/rhtm.png?height=200&width=400",
+      image: "/Rhtm.png",
       category: "fullstack",
     },
       {
@@ -128,8 +128,8 @@ export default function Component() {
       description:
         "Pagina para pormocionar reposteria artesanal",
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/PabloEzeta/REHTM",
-      live: "https://rehtm.com",
+      github: "https://github.com/dzulha/reposteria-website",
+      live: "https://reposteria-website.vercel.app/",
       image: "/karen.webp",
       category: "fullstack",
     },
