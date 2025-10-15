@@ -17,36 +17,36 @@ export default function Component() {
         "Blog de viajes de buceo.",
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS",],
       github: "https://github.com/dzulha/v0-blog-de-buceo-web",
-      live: "https://amazon.com/dp/B0C3969188",
+      live: "https://www.pabloezeta.com/",
       image: "/pabloezetaBlog.webp",
       category: "fullstack",
     },
     {
     title: "Proyecto Sinfonía Epub",
       description:
-        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
+        "Libro infantil ilustrado y maquetado con Sígil y usando Adobe InDesign.",
       tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
-      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
-      live: "https://amazon.com/dp/B0C3969188",
+      github: "",
+      live: "https://www.amazon.com.mx/Sinfon%C3%ADa-Spanish-Marta-Watts/dp/B0D77R7W6S?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=D0L36TFQTBUE&dib=eyJ2IjoiMSJ9.czKh8lYEP8D5KQiTHcrRGg.YiGr4OhOsLXQnxIUqb8LU-S6LXog8-covrH1Zy2ttSA&dib_tag=se&keywords=sinfonia+marta+watts&qid=1760558574&sprefix=sinfonia+marta+watts%2Caps%2C214&sr=8-1&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b",
       image: "/SinfoniaEpub.png?height=200&width=400",
-      category: "ux",
+      category: "fullstack",
     },
       {
     title: "Marta Watts",
       description:
-        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
-      tech: ["WordPress", "Elemetor", "Amazon KDP"],
+      "Pagina de escritora idependietnte para promocionar sus Libros.",
+      tech: ["WordPress", "Elemetor", "Amazon KDP",],
       github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
       live: "https://amazon.com/dp/B0C3969188",
-      image: "/Martawatts.png?height=200&width=400",
-      category: "ux",
+      image: "/martawatts.webp",
+      category: "fullstack",
     },
     {
     title: "ABSIMO",
       description:
-        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
-      tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
-      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
+        "Centro de buceo en CDMX. Diseño de identidad visual y sitio web.",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/dzulha/ABISMO",
       live: "https://amazon.com/dp/B0C3969188",
       image: "/abismo (2).png?height=200&width=400",
       category: "ux",
@@ -54,10 +54,11 @@ export default function Component() {
       {
     title: "Cetus Repaeir",
       description:
-        "Libro infantil ilustrado y maquetado con IA y Adobe InDesign. EPUB,.",
-      tech: ["HTML", "CSS", "Sígil", "Amazon KDP"],
-      github: "https://github.com/PabloEzeta/Proyecto-Sinfonia",
-      live: "https://amazon.com/dp/B0C3969188",
+        "Pagina para promocionar reparacion de equipo de buceo.",
+      tech: ["WordPress", "Elemetor", "Amazon KDP"],
+            github: "https://github.com/dzulha/v0-blog-de-buceo-web",
+
+      live: "https://cetusscubarepair.com/",
       image: "/Cetus reapeir.png?height=200&width=400",
       category: "ux",
     },
@@ -66,7 +67,8 @@ export default function Component() {
       description:
         "Rediseño de un sitio web obsoleto en Magento a dos sitios funcionales en WordPress. Se integró Calendly y MailerLite para reservas y marketing.",
       tech: ["WordPress", "Calendly", "MailerLite", "CSS"],
-      github: "https://github.com/PabloEzeta/Cetus-Dive-Center",
+            github: "https://github.com/dzulha/v0-blog-de-buceo-web",
+
       live: "https://cetusscubacenter.com",
       image: "/Cetus.webp?height=200&width=400",
       category: "fullstack",
@@ -75,10 +77,10 @@ export default function Component() {
       title: "Wild Sites (Estudio Freelance)",
       description:
         "Creación de mi propio estudio de diseño freelance. La página web sirve como portafolio y canal de captación de clientes, con implementación básica de SEO.",
-      tech: ["WordPress", "SEO", "Yoast", "Diseño Web"],
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/PabloEzeta/Wild-Sites",
       live: "https://wild-sites.com",
-      image: "/wildSites.png?height=200&width=400",
+      image: "/wildSites.webp",
       category: "fullstack",
     },
     {
@@ -86,39 +88,29 @@ export default function Component() {
       description:
         "Prototipo de tienda en línea para una joyera, mostrando su portafolio y permitiendo la venta de piezas. Desarrollado con WordPress y WooCommerce.",
       tech: ["WordPress", "WooCommerce", "e-commerce"],
-      github: "https://github.com/PabloEzeta/xMartaja",
+      github: "https://github.com/PabloEzeta/Proyecto-Eduardo",
       live: "https://xmartaja.com",
       image: "/xMartaja.png?height=200&width=400",
       category: "fullstack",
     },
     {
-      title: "Proyecto Eduardo (Diseño Gráfico)",
+      title: "Español con edu",
       description:
         "Desarrollo de identidad visual y materiales de marketing para un profesor de español enfocado en el mercado chino, incluyendo tarjetas de presentación y edición de video.",
-      tech: ["Figma", "Adobe Premiere Pro", "Diseño Gráfico"],
-      github: "https://github.com/PabloEzeta/Proyecto-Eduardo",
-      live: "https://link-to-video-or-site.com",
-      image: "/proyecto-eduardo.png?height=200&width=400",
-      category: "ux",
+      tech: ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS", "Diseño Gráfico"],
+      github: "https://github.com/dzulha/Espa-olconEdu",
+      live: "https://espa-olcon-kgj5zuvqe-pablos-projects-779e2d69.vercel.app/",
+      image: "/edu.webp",
+      category: "fullstack",
     },
-    {
-      title: "100 días de diseño UI",
+      {
+      title: "Jeniffer Cruz",
       description:
-        "Reto personal para mejorar mis habilidades en diseño UI/UX, explorando layouts y grids con la creación diaria de interfaces.",
-      tech: ["Figma", "UI/UX Design", "Layouts", "Grids"],
-      github: "https://github.com/PabloEzeta/100-Dias-UI",
-      live: "https://dribbble.com/PabloEzeta",
-      image: "/100-dias-ui.png?height=200&width=400",
-      category: "ux",
-    },
-    {
-      title: "Blog Personal de Buceo",
-      description:
-        "Creación de un blog de buceo en WordPress para compartir experiencias y conocimientos, superando el miedo a escribir y fortaleciendo la constancia en la publicación.",
-      tech: ["WordPress", "Blog", "Webmaster"],
-      github: "https://github.com/PabloEzeta/Blog-Buceo",
-      live: "https://pabloezeta.com",
-      image: "/pablo-ezeta-blog.png?height=200&width=400",
+        "Portafolio porfesional de una diseladora instrucional",
+      tech: ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS", "Diseño Gráfico"],
+      github: "https://github.com/dzulha/Espa-olconEdu",
+      live: "https://espa-olcon-kgj5zuvqe-pablos-projects-779e2d69.vercel.app/",
+      image: "/jeniffer.webp",
       category: "fullstack",
     },
     {
@@ -130,6 +122,36 @@ export default function Component() {
       live: "https://rehtm.com",
       image: "/rhtm.png?height=200&width=400",
       category: "fullstack",
+    },
+      {
+      title: "Huellas en el delantar",
+      description:
+        "Pagina para pormocionar reposteria artesanal",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/PabloEzeta/REHTM",
+      live: "https://rehtm.com",
+      image: "/karen.webp",
+      category: "fullstack",
+    },
+    {
+      title: "Xplora",
+      description:
+        "Proyecto final del bootcamp de Latam-Ft-5. Aplicacion para planear viajes en grupo.",
+      tech: ["React", "JS",],
+      github: "https://github.com/dzulha/Xplore-Proyecto-final-latam-ft-5",
+      live: "",
+      image: "/xplora.webp",
+      category: "fullstack",
+    },
+    {
+      title: "Xplora",
+      description:
+        "Planacion UX y UI para una app de viajes",
+      tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/dzulha/Xplore-Proyecto-final-latam-ft-5",
+      live: "https://miro.com/welcomeonboard/WG82QU5GWTJLamtITkZQOGIxaGk2QVhxTUUvU2YrYUxGWHZBM05VU0hLS3V5eXFjSWx4R1F4OGJZaEc3a0kyRFg4dUhaYk9TSXhuSmpGNmtrZGMxUDF1VTUraVdLOWhIMWh2emdndk1KUkZuR2xQb3NUcjArVGlQRitZamNyTGJQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=596591259829",
+      image: "/uxXplora.webp",
+      category: "UX & UI",
     },
   ];
 
@@ -145,12 +167,12 @@ export default function Component() {
 
 
   const skills = [
-    { name: "Frontend Development", icon: Code, description: "React, Next.js, TypeScript, Tailwind CSS" },
-    { name: "Backend Development", icon: Server, description: "Node.js, Express, PostgreSQL, MongoDB" },
+    { name: "Frontend Development", icon: Code, description: "React, Next.js, JavaScript , boostrap" },
+    { name: "Backend Development", icon: Server, description: "PostgreSQL, MongoDB" },
     { name: "UX/UI Design", icon: Palette, description: "Figma, Adobe XD, User Research, Prototyping" },
-    { name: "WordPress Development", icon: Globe, description: "Custom themes, plugins, ACF, WooCommerce" },
-    { name: "Database Design", icon: Database, description: "PostgreSQL, MongoDB, Prisma, SQL optimization" },
-    { name: "Mobile Development", icon: Smartphone, description: "React Native, Progressive Web Apps" },
+    { name: "WordPress Development", icon: Globe, description: "Custom themes, WooCommerce" },
+    { name: "Database Design", icon: Database, description: "PostgreSQL, MongoDB, SQL" },
+    { name: "Mobile Development", icon: Smartphone, description: "React Native,"},
   ]
 
   return (
@@ -190,21 +212,35 @@ export default function Component() {
               Specializing in React, Node.js, and WordPress development with a focus on clean, minimalist design.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              {/* Agenda una llamada: abre una URL externa (Calendly u otro) en nueva pestaña */}
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-                <Link href="#contact" className="flex items-center gap-2">
-                  Get In Touch
-                  <Mail className="w-4 h-4" />
-                </Link>
+                <a
+                  href="https://calendar.notion.so/meet/pabloezetawatts/h7m42i2j" /* reemplaza por tu enlace de agenda */
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                >
+                  Agenda una llamada
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </Button>
+
+              {/* Descargar CV: coloca el PDF en /public (por ejemplo /Pablo_Ezeta_CV.pdf) */}
               <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-600 text-gray-300 hover:bg-gray-800 bg-transparent"
               >
-                <Link href="#projects" className="flex items-center gap-2">
-                  View My Work
+                <a
+                  href="/Pablo-Alfonso-Ezeta-Watts-CV.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                >
+                  Descargar CV
                   <ExternalLink className="w-4 h-4" />
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
@@ -370,8 +406,10 @@ export default function Component() {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-              <Mail className="w-5 h-5 mr-2" />
-              hello@yourname.com
+              <a href="mailto:info@pabloezeta.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <Mail className="w-5 h-5 mr-2" />
+                info@pabloezeta.com
+              </a>
             </Button>
             <div className="flex gap-4">
               <Button
@@ -379,7 +417,7 @@ export default function Component() {
                 size="lg"
                 className="border-gray-600 text-gray-300 hover:bg-gray-800 bg-transparent"
               >
-                <Link href="https://linkedin.com/in/yourprofile" className="flex items-center gap-2">
+                <Link href="https://www.linkedin.com/in/pablo-ezeta/" className="flex items-center gap-2">
                   <Linkedin className="w-5 h-5" />
                   LinkedIn
                 </Link>
@@ -389,7 +427,7 @@ export default function Component() {
                 size="lg"
                 className="border-gray-600 text-gray-300 hover:bg-gray-800 bg-transparent"
               >
-                <Link href="https://github.com/yourusername" className="flex items-center gap-2">
+                <Link href="https://github.com/dzulha?tab=repositories" className="flex items-center gap-2">
                   <Github className="w-5 h-5" />
                   GitHub
                 </Link>
@@ -404,7 +442,7 @@ export default function Component() {
         <div className="max-w-6xl mx-auto">
           <Separator className="mb-8 bg-gray-800" />
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Pablo Ezeta. All rights reserved.</p>
             <p className="text-gray-400 text-sm mt-2 sm:mt-0">Built with React, Next.js & Tailwind CSS</p>
           </div>
         </div>
